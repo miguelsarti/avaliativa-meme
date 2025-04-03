@@ -70,7 +70,7 @@ const memes = [
     },
   ];
 
-const memeCard = ({memes}) => {
+const memeCard = ({ memes }) => {
     return (
     
 <div key={memes.id} className={styles.memesCard}>
